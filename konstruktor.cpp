@@ -15,3 +15,20 @@ public:
     void cetak();
 };
 
+mahasiswa :: mahasiswa(){
+    Nim = 0;
+    Nama = "";
+}
+
+mahasiswa ::mahasiswa(int iNim){
+    Nim=iNim;
+}
+
+mahasiswa :: mahasiswa(string iNama){
+    Nama=iNama;
+}
+
+mahasiswa :: mahasiswa(int iNim, string iNama){
+    Nim=iNim;
+    Nama=iNama;
+}
